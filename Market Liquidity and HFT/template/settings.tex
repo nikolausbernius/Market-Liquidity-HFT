@@ -1,0 +1,55 @@
+\documentclass[
+		pdftex,
+		a4paper, 		% DIN A4 format
+		12pt,			% font size
+		ngerman,english
+]{article}
+
+% Define page margine
+\def\coverborderleft{20mm} % needed for title page - update: Druck mit Pappumschlag braucht's eher nicht
+
+% Define page margine
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+% Enable use of figures
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{textgreek}
+\usepackage{longtable}
+\usepackage{adjustbox}
+
+% typesetting
+\usepackage{palatino} 				% Palatino font with sans-serif \sffamily Helvetica
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern, textcomp}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{makecell}
+% Set line spacing
+\usepackage{setspace}
+\linespread{1}
+
+% Allow for hyphenation
+\usepackage{hyphenat}
+
+% Include url package
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+
+
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+
+%bibliography
+\usepackage[backend=bibtex, style=authoryear, firstinits=true,maxbibnames=99]{biblatex}
+\bibliography{ML_HFT.bib}
+
+%eigene
+\usepackage{verbatim}
+
+

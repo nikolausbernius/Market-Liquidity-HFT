@@ -1,0 +1,66 @@
+
+%%%%%%%%%%%%%%%%%%%
+%  placeholders
+%%%%%%%%%%%%%%%%%%%
+
+% chair name not allowed at Department of Informatics
+% remove \phantom{} if you want the chair name on the cover
+\newcommand{\faculty}{Faculty of Economics}
+\newcommand{\university}{Barcelona School of Economics}
+\newcommand{\studycourse}{Essay 1/4}
+
+\author{Nikolaus Bernius}
+\newcommand{\matrikelnummer}{200739}
+\newcommand{\city}{Barcelona}
+\newcommand{\email}{nikolaus.bernius@bse.eu}
+\newcommand{\semester}{Term 2 2021/2022}
+
+
+\newcommand{\worktype}{\studycourse}
+\title{Market Liquidity \& HFT}
+
+\newcommand{\referent}{Prof. Benito Arruñada}
+
+% set date manually or use \today
+\newcommand{\submissionDate}{17 February 2022}
+
+% complete settings & packages: see settings.text
+\input{template/settings} 
+
+
+
+\begin{document}
+\selectlanguage{english}
+\input{template/deckblatt}
+
+\pagenumbering{roman}
+
+\tableofcontents{}
+\clearpage
+\pagenumbering{arabic}
+\frenchspacing
+
+
+\newpage
+\input{content/assignment_01}
+
+\newpage
+\input{content/assignment_02}
+
+\newpage
+\input{content/assignment_03}
+
+\newpage
+\input{content/assignment_04}
+
+%\newpage
+%\appendix
+%\input{content/Appendix}
+
+\newpage
+\printbibliography
+
+%\newpage
+%\input{template/disclaimer}
+
+\end{document}

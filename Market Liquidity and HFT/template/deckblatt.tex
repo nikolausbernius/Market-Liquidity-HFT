@@ -1,0 +1,29 @@
+\makeatletter
+\begin{titlepage}
+  \centering
+  \vspace{50mm}
+    \includegraphics[height=50mm]{template/BSE.pdf}
+
+  \vspace{50mm}
+  \setstretch{1.8}
+  {\huge \textbf{\@title}}
+  \setstretch{1}
+
+
+
+ 
+
+  \vspace{70mm}
+  \begin{tabular}{l l}
+    Author: & \@author \\
+    NIS:	& \matrikelnummer \\
+    University Teacher: & \referent \\
+    Submission Date: & \city, \submissionDate \\
+  \end{tabular}
+
+  \IfFileExists{logos/faculty.pdf}{%
+    \vfill{}
+    \includegraphics[height=20mm]{logos/faculty.pdf}
+  }{}
+\end{titlepage}
+
